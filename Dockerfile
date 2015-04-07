@@ -1,4 +1,4 @@
-FROM qcdata:centos-jdk
+FROM qcdatainc:centos-jdk
 MAINTAINER QCData Inc <den-developers@qcdata.com>
 
 RUN yum update -y && yum install -y \
